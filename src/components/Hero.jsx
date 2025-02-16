@@ -63,6 +63,16 @@ const Hero = () => {
                 </motion.h3>
               </AnimatePresence>
             </div>
+            <div className="h-16 overflow-hidden relative w-80 flex items-center justify-center">
+              <a
+                href="https://drive.google.com/file/d/1d2Ou2LzFpyaxqo4ytzw8Z-cwPbDvr52_/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-500 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
+              >
+                Download Resume
+              </a>
+            </div>
 
             <p className="md:text-base text-pretty text-sm text-gray-400">
               I'm a software engineer with a passion for creating innovative
